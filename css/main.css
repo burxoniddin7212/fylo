@@ -779,6 +779,7 @@ img {
   color: #C0C0C0;
   width: 480px;
   padding: 16px 38px;
+  border: none;
 }
 
 .button {

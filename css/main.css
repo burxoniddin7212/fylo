@@ -401,7 +401,7 @@ img {
 }
 
 .container {
-  width: 1320px;
+  max-width: 1320px;
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;

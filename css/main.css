@@ -659,7 +659,7 @@ img {
   background-image: url(../../img/“copy.png);
   content: "";
   display: block;
-  background-position: calc(50% + 7px) calc(50% - -1px);
+  background-position: calc(50%+7px) calc(50%- -1px);
   background-repeat: no-repeat;
   width: 65px;
   height: 50px;

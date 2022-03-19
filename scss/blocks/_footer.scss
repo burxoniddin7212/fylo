@@ -15,6 +15,7 @@
 .footer__box{
   margin-top: 32px;
   display: flex;
+  
 }
 
 .footer__locatsion{
@@ -22,7 +23,7 @@
 }
 
 .footer__locatsya{
-  width: 24px;
+  max-width: 24px;
   height: 24px;
 }
 
@@ -34,7 +35,7 @@
   font-size: 16px;
   line-height: 24px;
   color: #FFFFFF;
-  width: 300px;
+  max-width: 300px;
 }
 
 .footer__tel-emayl{
@@ -56,7 +57,7 @@
 }
 
 .footer__tell{
-  width: 24px;
+  max-width: 24px;
   height: 24px;
   margin-right: 23px;
 }
@@ -74,7 +75,7 @@
 }
 
 .footer__mailto{
-  width: 24px;
+  max-width: 24px;
   height: 24px;
   margin-right: 23px;
 }
@@ -130,4 +131,21 @@
 
 .twit{
   margin: 0 12px;
+}
+
+.footer__app-hover:hover{
+  filter: invert(61%) sepia(67%) saturate(384%) hue-rotate(87deg) brightness(98%) contrast(96%);
+}
+
+@include breakpoint-down(1260px){
+  .footer__box{
+    flex-wrap: wrap;
+  }
+}
+
+@include breakpoint-down(730px){
+  .footer__box{
+    flex-direction: column;
+    justify-content: center;
+  }
 }

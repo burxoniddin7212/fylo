@@ -11,3 +11,10 @@
   color: #FFFFFF;
   border: none;
 }
+
+@include breakpoint-down(520px) {
+  .btn{
+    width: 200px;
+  }
+}
+

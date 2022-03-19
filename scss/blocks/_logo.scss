@@ -7,3 +7,10 @@
   width: 176px; 
   height: 56px;
 }
+
+@include breakpoint-down(520px){
+.logo{
+  width: 150px; 
+  height: auto;
+}
+}

@@ -1,3 +1,4 @@
+
 .nav__list{
   width: 271px;
   list-style-type: none;
@@ -14,3 +15,18 @@
   line-height: 19px;
   color: #FFFFFF;
 }
+
+.nav__btn{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: none;
+  padding-top: 15px;
+}
+
+@include breakpoint-down(520px){
+.nav__btn{
+  display: block;
+}
+}
+

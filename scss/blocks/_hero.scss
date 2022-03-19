@@ -24,7 +24,7 @@
   font-size: 40px;
   line-height: 60px;
   color: #FFFFFF;
-  width: 734px;
+  max-width: 734px;
   margin: 0 auto;
 }
 
@@ -35,6 +35,48 @@
   line-height: 30px;
   text-align: center;
   color: #FFFFFF;
-  width: 520px;
+  max-width: 520px;
   margin: 34px auto;
+}
+
+@include breakpoint-down(811px) {
+  .hero__img{
+    width: 550px;
+    height: auto;
+  }
+}
+
+@include breakpoint-down(610px) {
+  .hero__img{
+    width: 380px;
+    height: auto;
+  }
+  .hero__headeng{
+    font-size: 30px;
+    line-height: 50px;
+  }
+}
+
+@include breakpoint-down(520px) {
+  .hero__img{
+    width: 300px;
+    height: auto;
+  }
+  // .hero__headeng{
+  //   font-size: 30px;
+  //   line-height: 50px;
+  // }
+
+  .hero{
+    padding-top: 140px;
+  }
+
+  .hero{
+    background-color: #1B2330;
+    background-image: url(../../img/baggarunimage.png);
+    background-repeat: no-repeat;
+    background-size: 600px auto;
+    background-position-x: calc(50%);
+    background-position-y: calc(741px);
+  }
 }

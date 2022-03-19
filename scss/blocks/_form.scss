@@ -6,7 +6,7 @@
 .form__inner{
   margin-left: auto;
   margin-right: auto;
-  width: 863px;
+  max-width: 863px;
   text-align: center;
   background-color:#1B2330;
   box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.254274);
@@ -35,7 +35,7 @@
   font-size: 14px;
   line-height: 21px;
   color: #FFFFFF;
-  width: 560px;
+  max-width: 560px;
   margin-top: 16px;
   margin-bottom: 38px;
 }
@@ -49,12 +49,25 @@
   font-size: 12px;
   line-height: 14px;
   color: #C0C0C0;
-  width: 480px;
+  max-width: 480px;
   padding:16px 38px;
   border: none;
 }
 
 .button{
-  width: 200px;
+  max-width: 200px;
   margin-left: 20px;
+}
+
+@include breakpoint-down(640px) {
+  .form__box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .button{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

@@ -1,0 +1,129 @@
+.footer{
+  background-color:#0B1524 ;
+  
+}
+
+.footer-logo{
+  margin-top: 200px;
+}
+
+.footer__inner{
+  padding-left: 40px;
+  padding-bottom: 90px;
+}
+
+.footer__box{
+  margin-top: 32px;
+  display: flex;
+}
+
+.footer__locatsion{
+  display: flex;
+}
+
+.footer__locatsya{
+  width: 24px;
+  height: 24px;
+}
+
+.footer__text{
+  margin: 0;
+  padding: 0;
+  font-family: 'OpenSans';
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  width: 300px;
+}
+
+.footer__tel-emayl{
+  display: flex;
+  flex-direction: column;
+  margin-left: 103px;
+}
+
+.footer__tell-link{
+  font-family: 'OpenSans';
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #FFFFFF;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.footer__tell{
+  width: 24px;
+  height: 24px;
+  margin-right: 23px;
+}
+
+.footer__mailto-link{
+  font-family: 'OpenSans';
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #FFFFFF;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.footer__mailto{
+  width: 24px;
+  height: 24px;
+  margin-right: 23px;
+}
+
+.footer__item{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin-left: 70px;
+}
+
+.itemss{
+  margin-top: 16px;
+}
+
+.footer__item-link{
+  font-family: 'OpenSans';
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.footer__list-contact{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin-left: 80px;
+}
+
+.footer__list-item-link{
+  text-decoration: none;
+  font-family: 'OpenSans';
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+.contact{
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.footer__app{
+  margin-left: 114px;
+}
+
+.twit{
+  margin: 0 12px;
+}

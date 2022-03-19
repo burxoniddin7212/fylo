@@ -1,0 +1,139 @@
+.productive{
+  background-color: #1B2330;
+}
+
+.productive__stay{
+  width: 1235px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 130px;
+}
+
+.productive__img{
+  width: 614px;
+  height: 463px;
+}
+
+.productive__heading{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  color: #FFFFFF;
+  width: 456px;
+}
+
+.productive__text-never{
+  font-family: 'OpenSans';
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  width: 463px;
+}
+
+.productive__text-securely{
+  font-family: 'OpenSans';
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  width: 493px;
+}
+
+.productive__link-works{
+  font-family: 'OpenSans';
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 19px;
+  color: #62E0D9;
+  display: flex;
+  align-items: center;
+}
+
+.productive__link-img{
+  width: 12px;
+  height: 12px;
+  margin-left: 8px;
+}
+
+.productive__list{
+  margin: 0;
+  padding: 0;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  list-style-type: none;
+  margin-top: 170px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.productive__item{
+  background-color: #202A3C;
+  box-shadow: 5px 5px 8px rgba(56, 56, 56, 0.0991282);
+  border-radius: 3.93258px;
+  padding-left: 26px;
+  padding-top:40px ;
+  padding-right: 25px;
+  padding-bottom:26px ;
+  width: 360px;
+}
+
+.productive__item-first::before{
+  background-image: url(../../img/“copy.png);
+  content: "";
+  display: block;
+  background-position: calc(50% + 7px) calc(50% - -1px);
+  background-repeat: no-repeat;
+  width: 65px;
+  height: 50px;
+  margin-top: -68px;
+  margin-left: -46px;
+}
+
+.produktive__information-text{
+  font-family: 'OpenSans';
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+  width: 309px;
+}
+
+.produktive__people{
+  width: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.produktive__people-img{
+  width: 24px;
+  height: 24px;
+}
+
+.produktive__people-name{
+  margin: 0;
+  padding: 0;
+  font-family: 'OpenSans';
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+}
+
+.produktive__people-infmin{
+  margin: 0;
+  padding: 0;
+  font-family: 'OpenSans';
+  font-weight: 200;
+  font-size: 7px;
+  line-height: 10px;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+}
+

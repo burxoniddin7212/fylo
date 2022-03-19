@@ -1,0 +1,48 @@
+.servise{
+  background-color: #1B2330;
+}
+
+.servise__inner{
+  
+}
+
+.servise__list{
+  margin: 0 auto;
+  width: 880px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.servise__item{
+  text-align: center;
+}
+
+.servise__heading{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFFFFF;
+  margin-bottom: 9px;
+}
+
+.servise__text{
+  font-family: 'OpenSans';
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 21px;
+  color: #FFFFFF;
+  width: 384px;
+}
+
+.item-buttom{
+  margin-top: 96px;
+}
+
+.item-buttomm{
+  margin-top: 115px;
+}
+

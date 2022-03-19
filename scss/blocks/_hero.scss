@@ -1,0 +1,35 @@
+.hero{
+  background-color: #1B2330;
+}
+
+
+.hero__inner{
+  text-align: center;
+  padding-bottom: 170px;
+}
+
+.hero__img{
+  width: 720px;
+  height: 534px;
+}
+
+.hero__headeng{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  color: #FFFFFF;
+  width: 734px;
+  margin: 0 auto;
+}
+
+.hero__text{
+  font-family: 'OpenSans';
+  font-weight: 200px;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #FFFFFF;
+  width: 520px;
+  margin: 34px auto;
+}
